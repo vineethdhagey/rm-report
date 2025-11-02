@@ -139,6 +139,24 @@ The project uses the diabetes dataset, which is included in the `archive/diabete
 
 *Figure 3: Heatmap visualization comparing SHAP and LIME across features.*
 
+
+## 🔬 Experimental Highlights
+
+| Metric | SHAP | LIME |
+|:--|:--:|:--:|
+| Explanation Type | Global + Local | Local-only |
+| Stability | ✅ High (consistent across runs) | ⚠️ Medium (perturbation-sensitive) |
+| Speed | ⚙️ Moderate | ⚡ High |
+| Clinical Interpretability | Robust & Quantitative | Intuitive but case-specific |
+| BMI Importance Score | **0.45** | **0.40** |
+
+
+
+
+
+
+
+
 ## 📝 Scripts Overview
 
 ### `lime_analysis.py`
@@ -192,7 +210,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 **Vineeth Dhagey**
-- **Email**: dhageyvineeth@gmail.com
+
+**Kamaleswar Urranki**
+- **Email**: dhageyvineeth@gmail.com, urrankikamaleswar@gmail.com
 
 ---
 
